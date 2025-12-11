@@ -10,7 +10,7 @@ Machine Learning model using a CNN that counts the number of cars in a traffic c
 - `picture/` - Directory containing traffic camera images organized by camera location  
 - `labels/` - Directory where labeling data is stored as JSON files
 - `install.ipynb` - IPYNB File used to install the necessary dependencies to run machine_model_training
-- `machine_model_training.ipynb` - Main Jupyter notebook (renamed from `main2.ipynb`) used to train and evaluate the CNN model  
+- `machine_model_training.ipynb` - Main Jupyter notebook used to train and evaluate the CNN model  
 - `models/` - Directory where trained PyTorch model checkpoints are saved (e.g., `car_count_resnet18.pth`)  
 
 ## Camera Locations
