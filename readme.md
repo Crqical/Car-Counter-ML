@@ -1,15 +1,14 @@
 # Car Counter - Image Labeling Tool
 
 ## Overview
-A Flask-based web application for labeling traffic camera images to count cars. This tool allows users to view images captured from different traffic cameras and label the number of cars visible in each image.
+Machine Learning Model using CNN that counts the number of cars in a picture. This machine learning model contained manually gathered data, manually labeled data. 
 
 ## Project Structure
-- `label_server.py` - Main Flask web application server
-- `desk_capture.py` - Desktop screenshot capture script (for local use, captures from screen regions)
+- `label_server.py` - Main Flask web application server to label the pictures for training
+- `desk_capture.py` - Desktop screenshot capture script to gather the pictures from the New York Department of Transportation. 
 - `pictures.json` - Metadata file containing information about all captured images
 - `picture/` - Directory containing traffic camera images organized by camera location
 - `labels/` - Directory where labeling data is stored as JSON files
-- `movefiles.py` - Utility script for organizing files
 - `main.ipynb` - Jupyter notebook (legacy)
 
 ## Camera Locations
@@ -18,12 +17,6 @@ A Flask-based web application for labeling traffic camera images to count cars. 
 - Queens_Plaza_North
 - E_63_St
 - S_Conduit_Ave_150
-
-## Running the Application
-The Flask server runs on port 5000. Access the web interface to:
-1. Select a camera/description to label
-2. View images and enter car counts
-3. Mark images with issues if unreadable
 
 ## Technical Details
 - **Framework**: Flask
