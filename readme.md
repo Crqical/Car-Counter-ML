@@ -36,10 +36,10 @@ Machine Learning model using a CNN that counts the number of cars in a traffic c
   Make sure Python is installed.  
   From the project root, install the core packages with `pip install torch torchvision numpy pandas pillow scikit-learn matplotlib jupyter`.
 
-- **Step 4 – Run the Jupyter notebook**  
+- **Step 3 – Run the Jupyter notebook**  
   Start Jupyter Notebook from the project root using `jupyter notebook`.  
   Open `machine_model_training.ipynb, then run all cells from top to bottom to train the model.
 
-- **Step 5 – Use the trained model**  
+- **Step 4 – Use the trained model**  
   After training, the best model weights are saved to `models/car_count_resnet18.pth`.  
   Inside the notebook, call `predict_cars(image_path)` to get the predicted number of cars for any image.
